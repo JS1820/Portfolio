@@ -26,12 +26,14 @@ export default function App() {
             className="space-y-6"
           >
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-              Software Engineer crafting secure and efficient solutions
+              Software Developer
             </h1>
-            <p className="text-base md:text-lg text-slate-600 dark:text-slate-300">
-              MS in Computer Science at Drexel. Software engineer with strengths in frontend-leaning full-stack development 
-              and secure system design. I build applications with clean architectures, scalable code, and measurable outcomes.
-            </p>
+          <p className="text-base md:text-lg text-slate-600 dark:text-slate-300">
+  Software Developer with 3+ years of experience designing and deploying secure, high-performance applications using React,
+  Next.js, Python, and Django. Recently completed a Master’s in Computer Science at Drexel University, with a strong focus on
+  frontend-leaning full-stack development, cloud-native systems, and clean, maintainable architectures that deliver
+  measurable business impact.
+</p>
             <div className="flex flex-wrap gap-3">
               <a href="#projects" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 hover:opacity-90">
                 View Projects <ArrowRight className="h-4 w-4" />
@@ -46,7 +48,7 @@ export default function App() {
               </a>
             </div>
             <div className="flex items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
-              <div className="flex items-center gap-2"><MapPin className="h-4 w-4"/>California, USA</div>
+              <div className="flex items-center gap-2"><MapPin className="h-4 w-4"/>San Jose, CA, USA</div>
               <div className="flex items-center gap-2"><Phone className="h-4 w-4"/>+1(267)593-9889 </div>
               <a href={LINKS.email} className="flex items-center gap-2 hover:underline"><Mail className="h-4 w-4"/>Email me</a>
             </div>
@@ -61,7 +63,7 @@ export default function App() {
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
               <img
                 alt="Portfolio hero"
-                src="src/image/unnamed.webp"
+                src="src/image/Taskflow.jpg"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
@@ -77,10 +79,16 @@ export default function App() {
         <Section id="about" title="About">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2 text-slate-600 dark:text-slate-300 leading-relaxed">
-              I’m Jeevan Satish — Detail-oriented software engineer experienced in building responsive web applications with HTML5, CSS3, JavaScript, and React.
-              Skilled in data structures, algorithms, and RESTful API integration with strong expertise in modular design, Git, and debugging.
-              Committed to delivering scalable, user-focused solutions through clean, maintainable code.
-            </div>
+              I’m Jeevan Satish, a software developer with over 3 years of experience designing and delivering
+              scalable, high-performance web applications. My work spans frontend-leaning full-stack development
+              using React, Next.js, Python, and Django, with a strong focus on clean architecture, modular design,
+              and maintainable code.
+              <br /><br />
+              I’ve built and deployed secure, cloud-ready systems across enterprise environments, working extensively
+              with RESTful APIs, SQL and NoSQL databases, CI/CD pipelines, and containerized deployments. I enjoy
+              solving complex problems, improving system performance, and translating business requirements into
+              reliable, user-focused solutions.
+              </div>
             <div className="flex flex-wrap gap-2">
               {SKILLS.slice(0, 9).map(s => <Chip key={s}>{s}</Chip>)}
             </div>

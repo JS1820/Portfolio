@@ -3,7 +3,7 @@ export const PROJECTS = [
     title: "TaskFlow Team Productivity Web App",
     blurb: "A collaborative app that streamlines task management with real-time tracking, role-based access, and deadline reminders. Designed with clean UI and smart dashboards to keep teams aligned and boost productivity.",
     tech: ["React.js", "Tailwind CSS", "Flask", "PostgreSQL", "Docker", "AWS", "REST"],
-    image: "src/image/unnamed.webp",
+    image: "src/image/Taskflow.jpg",
     live: "https://github.com/JS1820/Taskflow/blob/main/README.md",
     repo: "https://github.com/JS1820/Taskflow",
     impact: "Enhanced team collaboration and security while reducing deployment time by 40%, leading to faster updates and a 30% gain in management efficiency."
