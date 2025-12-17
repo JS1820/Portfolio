@@ -14,7 +14,7 @@ export default function Header() {
         <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between text-slate-900 dark:text-slate-100">
           <div className="flex items-center gap-3">
             <img
-             src="src/image/JS.jpg"   
+             src="https://drive.google.com/file/d/166vaooZbHbWeHSSp_ktqvZwdrkyP1_va/view?usp=share_link"   
             alt="Jeevan Satish"
              className="h-9 w-9 rounded-full object-cover border border-slate-300 dark:border-slate-700"
             />

@@ -61,11 +61,11 @@ export default function App() {
             className="order-first md:order-none"
           >
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
-              <img
-                alt="Portfolio hero"
-                src="src/image/Taskflow.jpg"
-                className="h-full w-full object-cover"
-              />
+<img
+  src="/images/portfolio-hero.png"
+  alt="Portfolio hero"
+  className="h-full w-full object-cover"
+/>
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
               <div className="absolute bottom-3 left-3 text-white text-sm opacity-90">
                 <div className="font-medium">Latest build: TaskFlow</div>
